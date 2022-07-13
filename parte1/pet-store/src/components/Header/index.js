@@ -8,7 +8,7 @@ import HamburgerIcon from "../../assets/img/Hamburger_icon.svg";
 function index() {
   return (
     <header>
-      <div className="container-topHeader">
+      <div className="container-header">
         <div>
           <input className="search-header" placeholder="Pesquisar..." />
         </div>
