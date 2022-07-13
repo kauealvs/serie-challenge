@@ -1,0 +1,76 @@
+//top header section  
+  .container-topHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .div-logo img {
+        max-width: 200px;
+        width: 100%;
+      }
+      .search-header {
+        background: url('../../assets/img/lupa.png') no-repeat;
+        background-position: 130px;
+        background-size: 20px;
+        height: 20px;
+        border: 1px solid #979F9D;
+    }
+    .search-header {
+        padding: 5px;
+      }
+
+      .container-login-minicart{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 110px;
+      }
+  }
+
+
+//container list styles
+  .container-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #8158c5;
+    color: #fff;
+    
+    ul {
+      display: flex;
+      padding: 0;
+    }
+    
+    li {
+      font-size: 14px;
+      font-weight: 300;
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        padding: 0 15px;
+      }
+  }
+  
+ 
+  
+  @media screen and (max-width: 520px) {
+    .container-list {
+      font-size: 9px;
+      li {
+        display: none;  
+        padding: 0 10px;
+      }
+    }
+  
+    
+  }
+  
+  @media screen and (max-width: 768px) and (min-width: 520px) {
+    .container-list {
+      font-size: 9px;
+      li {
+        padding: 0 10px;
+      }
+    }
+  
+    
+  }
