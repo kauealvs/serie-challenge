@@ -16,8 +16,8 @@ function index() {
           <img src={logo} />
         </div>
         <div className="container-login-minicart">
-          <img src={login} />
-          <img src={miniCart} />
+          <img className="login" src={login} />
+          <img className="mini-cart" src={miniCart} />
         </div>
       </div>
       <div className="container-list">
