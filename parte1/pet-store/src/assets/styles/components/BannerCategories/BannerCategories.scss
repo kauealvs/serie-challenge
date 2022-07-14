@@ -19,17 +19,12 @@
     
   }
   
-  @media (max-width: 520px) {
+  @media (max-width: 768px) {
     .container-banner-categories {
-      flex-direction: column;
       height: 100%;
       padding: 15px 0;
+      flex-direction: column;
     }
   }
   
-  @media (max-width: 768px) {
-    .container-banner-categories {
-      flex-direction: row;
-      height: 100px;
-    }
-  }
+ 

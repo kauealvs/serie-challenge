@@ -15,11 +15,11 @@
         background-size: 20px;
         height: 20px;
         border: 1px solid #979F9D;
-    }
-    .search-header {
         padding: 5px;
-      }
-
+        &:focus-visible{
+          outline: none;
+        }
+    }
       .container-login-minicart{
         display: flex;
         justify-content: flex-start;
