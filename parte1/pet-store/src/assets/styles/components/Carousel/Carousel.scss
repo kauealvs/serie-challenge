@@ -1,0 +1,43 @@
+.carousel-section {
+    .control-prev{
+        left: 27% !important;
+        &:hover{
+            background: none !important;
+            &::before{
+                color: orange !important;
+                background: none;
+            }
+        }
+        &::before{
+            content: "<" !important;
+            font-size: 120px;
+            color:rgb(95, 95, 95);
+            border: none !important;
+            // margin: 0 25px;
+            // display: inline-block;
+            // border-top: 8px solid red !important;
+            // border-bottom: 8px solid red !important;
+}
+        }
+    
+
+    .control-next{
+        right: 27% !important;
+        &:hover{
+            background: none !important;
+            &::before{
+                color: orange !important;
+            }
+        }
+        &::before{
+            font-size: 120px;
+            color:rgb(95, 95, 95);
+            content: ">" !important;
+            border: none !important;
+        }  
+    }
+}
+
+        
+        
+ 
