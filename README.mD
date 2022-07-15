@@ -4,7 +4,7 @@
 
 ## PARTE I - Teste de HTML e CSS
 
-## link para acessar o projeto:
+## link para acessar o projeto: https://pet-store-black.vercel.app
 
 O objetivo deste teste fazer uma página em HTML e CSS, para o layout dado pelo .psd disponível na pasta .psd, simulando uma loja chamada 'PET Store'.
 
